@@ -37,9 +37,9 @@ namespace ArraySorting
                 for (int j = 0; j < arr.Length; j += 1)
                 {
                     Console.Write(" {0}", arr[j]);
-                    Console.ReadKey();
                 }
             }
+            Console.ReadKey();
         }
     }
 }   
